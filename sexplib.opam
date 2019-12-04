@@ -12,8 +12,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.04.2"}
-  "parsexp"  {>= "v0.13" & < "v0.14"}
-  "sexplib0" {>= "v0.13" & < "v0.14"}
+  "parsexp"  
+  "sexplib0" 
   "dune"     {>= "1.5.1"}
   "bigarray-compat"
   "num"
@@ -25,3 +25,7 @@ The Core suite of libraries is an industrial strength alternative to
 OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
+url {
+  src: "git+https://github.com/dune-universe/sexplib.git#duniverse-v0.13"
+}
+
